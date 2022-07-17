@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HtmlForm</title>
+        <link rel="stylesheet" href="style/nav.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="semantic.html">Semantic</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+
+            </nav>
+            <h1> Welcome to my Form</h1>
+        </header>
+        <h1>jamaler maa's special Pitha expo</h1>
+        <form action="">
+            <p>Name: <input type="text" name="name" placeholder="Enter your name" id=""></p>
+            <p>Email: <input type="email" name="Email" placeholder="Enter your Email" id=""></p>
+            <p>Addres: <input type="text" name="address" placeholder="Enter your address" id=""></p>
+            <p>Age:<input type="number" name="age" placeholder="Enter your age" id=""></p>
+            <p>Phone: <input type="number" name="phone" placeholder="Enter your phone number" id=""></p>
+
+            <fieldset>
+                <legend>select your pitha</legend>
+                <p>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">chitoy
+                    </label>
+                </p>
+                <p>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">vapa
+                    </label>
+                </p>
+                <p>
+                    <label for="patisapta">
+                        <input type="radio" name="pitha" id="patisapta">patisapta
+                    </label>
+                </p>
+                <p>
+                    <label for="poli">
+                        <input type="radio" name="pitha" id="poli">poli
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>select your vorta</legend>
+                <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">sorisa</label></p>
+                <p><label for="dhoniyapata"><input type="checkbox" name="vorta" id="dhoniyapata">dhoniyapata</label></p>
+                <p><label for="kalazira"><input type="checkbox" name="vorta" id="kalazira">kalazira</label></p>
+            </fieldset>
+
+            <p>Special Instruction</p>
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+
+    </body>
+
+</html>
